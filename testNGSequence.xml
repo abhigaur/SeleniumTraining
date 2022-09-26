@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite21">
+  <test thread-count="5" name="Test21">
+    <classes>
+      <class name="testNGExample.TestNGAnnotationSequence2"/>
+      <class name="testNGExample.TestNGAnnotationSequence"/>
+    </classes>
+  </test> <!-- Test21 -->
+</suite> <!-- Suite21 -->

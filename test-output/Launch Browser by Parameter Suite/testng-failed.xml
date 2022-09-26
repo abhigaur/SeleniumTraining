@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Launch Browser by Parameter Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Launch Browser by Parameter Test(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="testNGExample.BrowserApplicationLaunch">
+        <methods>
+          <include name="launchBr"/>
+        </methods>
+      </class> <!-- testNGExample.BrowserApplicationLaunch -->
+    </classes>
+  </test> <!-- Launch Browser by Parameter Test(failed) -->
+</suite> <!-- Failed suite [Launch Browser by Parameter Suite] -->
